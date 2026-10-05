@@ -1,0 +1,14 @@
+{
+  "name": "wishcraft-ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "latest",
+    "express": "latest",
+    "openai": "latest",
+    "razorpay": "latest"
+  }
+}
