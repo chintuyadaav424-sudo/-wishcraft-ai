@@ -43,7 +43,7 @@ app.post("/api/create-order", async (req,res)=>{
   }catch(e){res.status(500).json({error:"Could not create payment order."});}
 });
 
-app.get("/{*splat}", (req,res)=>res.sendFile(path.join(__dirname, "public", "index.html")));,,(req,res)=>res.sendFile(path.join(__dirname,"public","index.html")));
+app.get("/{*splat}", (req,res)=>res.sendFile(path.join(__dirname, "public", "index.html")));
 
 const port=process.env.PORT || 3000;
 app.listen(port,()=>console.log(`WishCraft running on port ${port}`));
